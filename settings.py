@@ -10,3 +10,4 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
     ("downloads", "/opt/webfiles/stats"),
 )
+$ heroku config:set DISABLE_COLLECTSTATIC=1
